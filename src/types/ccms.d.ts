@@ -1,7 +1,8 @@
 export interface Article{
-    id: number;
+    id: string;
     title: string;
-    content: string;
+    blockIds: string[]
+    createdAt: Date;
 }
 
 export interface Block{

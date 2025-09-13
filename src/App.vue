@@ -1,8 +1,7 @@
 <template>
-
+  <ArticleView/>
   <ArticleEditor/>
   <ArticleList/>
-  <ArticleView/>
   <BlockEditor/>
   <BlockList/>
 
