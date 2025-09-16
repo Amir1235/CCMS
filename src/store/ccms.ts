@@ -42,7 +42,7 @@ export const useArticleStore = defineStore('ccms',()=>{
         }
 
      }
-     return { articles, addArticle, removeArticle, editArticle, addBlock, editBlock, removeBlock }
+     return { articles,blocks, addArticle, removeArticle, editArticle, addBlock, editBlock, removeBlock }
 
 
 })
