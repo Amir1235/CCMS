@@ -1,18 +1,12 @@
 <template>
-  
-  <BlockEditor/>
-  <BlockList/>
-  <ArticleEditor/>
-  <ArticleList/>
-
+  <nav>
+    <router-link to="/articles">Articles</router-link> |
+    <router-link to="/articles/new">Create Article</router-link> |
+    <router-link to="/blocks">Blocks</router-link>
+  </nav>
+  <router-view />
 </template>
 
 <script setup lang="ts">
-import ArticleEditor from './components/ArticleEditor.vue';
-import ArticleList from './components/ArticleList.vue';
-import ArticleView from './components/ArticleView.vue';
-import BlockEditor from './components/BlockEditor.vue';
-import BlockList from './components/BlockList.vue';
-
-
+// No imports needed
 </script>
